@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Html5 canvas pure js template</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<style type="text/css">
+		article {
+			padding:10px;
+			position:relative;
+			z-index:1;
+			background:rgba(255,255,255,0.8);
+		}
+		</style>
+	</head>
+    <body>
+	    <article>
+	    	<h1>This is a simple template for a html5 canvas animation</h1>
+	    	<p>The project is made by <a href="http://www.gianlucaguarini.com"  target="_black" >Gianluca Guarini</a> and you can feedback on <a href="https://github.com/GianlucaGuarini"  target="_black" >github</a></p>
+	    	<p>The core of this application is main.js. In this file you can find every basic objects you need to start a great canvas animation.</p>
+	    	<p>As you know to draw on a canvas you need to create a javascript loop and update the coordinates of every object on the stage. The most important thing to know is that you can loop in three ways:</p>
+	    	<ul>
+	    		<li>Using the new <strong>window.requestAnimationFrame API</strong></li>
+	    		<li>Using <strong>setInterval()</strong></li>
+	    		<li>Using <strong>setTimeout()</strong> at the end of the loop function calling itself again and again</li>
+	    	</ul>
+	    	<p>Here you can find some examples of this ways to loop and as you should know you can choose the best way to animate your application taking care of CPU performance</p>
+	    	<h2>Enjoy it</h2>
+	    </article>
+    	<canvas id="canvas" width="0" height="0" ></canvas>	
+    	<!-- PLUG IN MODULES -->
+    	<script type="text/javascript" src="js/utils/ClientSize.js"></script>
+    	<!-- MAIN SCRIPT -->
+		<script type="text/javascript" src="js/examples/demo-particles-squares.js"></script>	
+	</body>
+</html>		
