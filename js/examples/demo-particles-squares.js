@@ -50,9 +50,6 @@
 		canvas.setAttribute('width', CanvasWidth );
 		canvas.setAttribute('height', CanvasHeight );
 
-		//setting document offsets
-		pageOffset.offsetLeft = CanvasWidth / 2 - 500;
-		pageOffset.offsetRight = CanvasWidth - pageOffset.offsetLeft;
 
 	};
 	var animate = function (){
