@@ -13,7 +13,7 @@
 		mouseY		 = 0
 		totalbodyPath= 0
 		i 			 = 0
-		headSprite   = '../img/head.png',
+		headSprite   = 'img/head.png',
 		headImg		 = new Image;
 	
 	var bodyPath = [];
