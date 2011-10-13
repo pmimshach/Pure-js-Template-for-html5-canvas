@@ -4,7 +4,7 @@
  * Author:	Gianluca Guarini
  * Contact: 	gianluca.guarini@gmail.com
  * Website:	http://www.gianlucaguarini.com/
- * Twitter:		@gianlucaguarini
+ * Twitter:	@gianlucaguarini
  *
  * Copyright (c) 2011 Gianluca Guarini
  *
@@ -43,5 +43,4 @@ As you know to draw on a canvas you need to create a javascript loop and update 
     Using setTimeout() at the end of the loop function calling itself againg and again
 
 Here you can find some examples of this ways to loop and as you should know you can choose the best way to animate your application controlling CPU performance
->>>>>>> pageoffset removed and blablabla demo added
 Enjoy it
